@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Taller de Producto 2021 on Alein-ternet UAI</title>
+    <link>https://aleinternet.github.io/docs/</link>
+    <description>Recent content in Taller de Producto 2021 on Alein-ternet UAI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate><atom:link href="https://aleinternet.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agua-Perro alarma</title>
+      <link>https://aleinternet.github.io/docs/alarma_perro/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://aleinternet.github.io/docs/alarma_perro/</guid>
+      <description>¡¡El perro necesita beber!!</description>
+    </item>
+    
+    <item>
+      <title>Meraki</title>
+      <link>https://aleinternet.github.io/docs/meraki/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://aleinternet.github.io/docs/meraki/</guid>
+      <description>Construye en base a lo que tu alma dicte</description>
+    </item>
+    
+    <item>
+      <title>Brown nie</title>
+      <link>https://aleinternet.github.io/docs/brown_nie/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://aleinternet.github.io/docs/brown_nie/</guid>
+      <description>Emprendimiento experiencia con Brown nie</description>
+    </item>
+    
+    <item>
+      <title>Ejemplo Shortcodes</title>
+      <link>https://aleinternet.github.io/docs/ejemplo/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://aleinternet.github.io/docs/ejemplo/</guid>
+      <description>Uso de los Shortcodes para agregar contenido en el sitio de documentación.</description>
+    </item>
+    
+    <item>
+      <title>Ejemplos Markdown_1</title>
+      <link>https://aleinternet.github.io/docs/markdown/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://aleinternet.github.io/docs/markdown/</guid>
+      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+    </item>
+    
+  </channel>
+</rss>
