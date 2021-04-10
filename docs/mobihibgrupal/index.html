@@ -178,6 +178,28 @@
 <hr>
 <p><img src="/img/25_marcosref1.jpg" alt="24"></p>
 <p><img src="/img/26_marcosref2.jpg" alt="25"></p>
+<hr>
+<hr>
+<h2 id="entrega-final">ENTREGA final</h2>
+<hr>
+<hr>
+<h2 id="fobis">FOBIS</h2>
+
+<iframe id='pdf-hugo' src='/pdf/grupal.pdf'
+frameborder="0" scrolling="yes" seamless="seamless" style="display:block; width:100%; height:60vh;"></iframe>
+
+<button onclick="myFunction('pdf-hugo')" class="button button-primary mb-2" style="width: 100%;">Ver Pantalla Completa</button>
+
+<script>
+    function myFunction(id) {
+      document.getElementById(id).classList.add("full-screen");
+    }
+    document.addEventListener('keydown', function(event){
+	if(event.key === "Escape"){
+        document.getElementById('pdf-hugo').classList.remove("full-screen");
+	}
+});
+</script>
 
 </div>
 </div>
