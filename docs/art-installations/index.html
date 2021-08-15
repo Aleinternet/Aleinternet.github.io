@@ -95,6 +95,10 @@
     </li>
     
     <li class="">
+      <a href="https://aleinternet.github.io/docs/electr%C3%B3nica_paul_gonza/">Electrónica Paul - Gonzalo</a>
+    </li>
+    
+    <li class="">
       <a href="https://aleinternet.github.io/docs/mobiliariohibrido/">Mobiliario Híbrido</a>
     </li>
     
@@ -140,6 +144,29 @@
 <hr>
 
 <iframe id='pdf-hugo' src='/pdf/Sou_Fujimoto.pdf'
+frameborder="0" scrolling="yes" seamless="seamless" style="display:block; width:100%; height:60vh;"></iframe>
+
+<button onclick="myFunction('pdf-hugo')" class="button button-primary mb-2" style="width: 100%;">Ver Pantalla Completa</button>
+
+<script>
+    function myFunction(id) {
+      document.getElementById(id).classList.add("full-screen");
+    }
+    document.addEventListener('keydown', function(event){
+	if(event.key === "Escape"){
+        document.getElementById('pdf-hugo').classList.remove("full-screen");
+	}
+});
+</script>
+<hr>
+<hr>
+<hr>
+<h2 id="pabellón-amira">Pabellón Amira</h2>
+<hr>
+<p>Martín Seguel - Roberto Sandoval - Tomás Apparcel - Alejandro Cifuentes V</p>
+<hr>
+
+<iframe id='pdf-hugo' src='/pdf/pabellon_taller.pdf'
 frameborder="0" scrolling="yes" seamless="seamless" style="display:block; width:100%; height:60vh;"></iframe>
 
 <button onclick="myFunction('pdf-hugo')" class="button button-primary mb-2" style="width: 100%;">Ver Pantalla Completa</button>
