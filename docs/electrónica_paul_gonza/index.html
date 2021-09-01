@@ -208,9 +208,56 @@
 <p>Finalidad de este circuito: además de cuidar el LED de un posible voltaje/corriente no querida, establecer un límite de voltaje en el circuito.</p>
 <p><img src="/img/pol_circuito_01.jpg" alt="Intro"></p>
 <h2 id="circuito-timer-555">circuito timer 555</h2>
-<p>Con el Timer 555 y un potenciómetro se crea un blink para ajustar la frecuencia de parpadeo del Led.
-Para hacerlo parpadear más rápido o lento dependiendo de la luz se requiere de una fotoresistencia, en donde a mayor luz (resistencia) será menos la intensidad de luz emitida por el led; y viceversa.</p>
+<p>El potenciómetro es un componente el cual permite variar la cantidad de corriente que pasa de manera manual, entregando más o menos resistencia según sea deseado.
+Así, con el Timer 555 y un potenciómetro se crea un &ldquo;blink&rdquo; o destello para ajustar la frecuencia de parpadeo del Led.
+Para hacerlo parpadear más rápido o lento DEPENDIENDO de la luz se requiere de una fotoresistencia, en donde a mayor luz (resistencia) será menos la intensidad de luz emitida por el led; y viceversa.</p>
 <p><img src="/img/pol_circuito_02.jpg" alt="Intro"></p>
+<hr>
+<hr>
+<hr>
+<p>TAREA 3</p>
+<hr>
+<hr>
+<hr>
+<h2 id="1">1)</h2>
+<h2 id="led-rgb-intensidad-de-la-luz-con-potenciómetro">Led RGB, intensidad de la luz con potenciómetro.</h2>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/paul_v_rgb.mp4"  type="video/mp4">
+    </video>
+</div>
+<p>Aquí, gracias a arduino, uno puede modificar el color de un led RGB, el cual contiene, por así decirlo, 3 leds de colores en su interior de tres distintos colores: uno rojo (R), otro verde (G) y azul (B).</p>
+<p>Así, gracias al potenciómetro, cuyo uso fue explicado anteriormente, le va entregando los valores a arduino de cada led al que está conectado en el código, valores entre 0 y 255. Por ende, en el caso del potenciómetro conectado al led Rojo a mayor valor entregado mayor intensidad de rojo tendrá.</p>
+<p>Por ejemplo, en caso de que queramos un color naranjo debiésemos colocar que el potenciómetro conectado al led rojo entregue un valor de 255, verde 127 y 0 de azul.</p>
+<h2 id="2">2)</h2>
+<h2 id="leds-efecto-knight-rider">Leds efecto Knight Rider</h2>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/pol_v_lrider.mp4"  type="video/mp4">
+    </video>
+</div>
+<p>Link efecto Knight Rider: <a href="https://www.youtube.com/watch?v=oNyXYPhnUIs&amp;t=17s&amp;ab_channel=NBCClassics">https://www.youtube.com/watch?v=oNyXYPhnUIs&amp;t=17s&amp;ab_channel=NBCClassics</a></p>
+<p>Aquí hacemos que la luz &ldquo;avance&rdquo; de un lado a otro, es decir, que se enciendan los leds de izquierda a derecha y de derecha hasta que termine con el último led para que vaya de derecha a izquierda, y así sucesivamente.</p>
+<p>Esto se logra, dentro de muchas otras formas, con la función for, la cual consiste en que mientras el valor de un parámetro no rompa su restricción, irá encendiendo los leds uno a uno y apagando los adyacentes al encendido.</p>
+<p>En este caso se cuenta con 6 leds, en donde se enciende (de derecha a izquierda) el led número 1 y apagando los adyacentes (el led número 2 y el led ficticio 0), para luego encender el led número 2 y apagando sus adyacentes, y así sucesivavemnte hasta llegar al led número 6, el cual se apaga y vuelve a encenderse para repetir el orden inverso.</p>
+<h2 id="3">3)</h2>
+<h2 id="leds-efecto-ola">Leds efecto ola</h2>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/paul_v_ola.mp4"  type="video/mp4">
+    </video>
+</div>
+<p>Este efecto de luz de leds trata de ir encendiendo uno a uno los leds en orden hasta que todos estén encendidos para luego apagarlos en ese mismo orden. Posteriormente se encenderán los leds en sentido contrario para apagarse luego en ese mismo sentido; y así sucesivamente.</p>
+<p>Esto es posible gracias, nuevamente, a la función &ldquo;for&rdquo;, ya que enciende un led y pasa a encender el siguiente hasta que complete todos los leds, y lo mismo para apagarlos.</p>
 
 </div>
 </div>
