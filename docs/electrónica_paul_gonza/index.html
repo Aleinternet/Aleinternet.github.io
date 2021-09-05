@@ -278,6 +278,21 @@ Para hacerlo parpadear más rápido o lento DEPENDIENDO de la luz se requiere de
     <source src="/img/pol_rele.mp4"  type="video/mp4">
     </video>
 </div>
+<hr>
+<hr>
+<h2 id="lo-mismo-pero-con-fotorresistencia">Lo mismo, pero con fotorresistencia</h2>
+<p>Usando el componente de la fotorresistencia, la cual varía la resistencia generada al circuito según sea la cantidad de luz que le llegue, se modifica el circuito anterior para que la ampolleta sea encendida según la luminosidad en el entorno.</p>
+<h2 id="esquemático-1">ESQUEMÁTICO</h2>
+<p><img src="/img/Paul_esquematico_v22.jpg" alt="Intro"></p>
+<p>Como la fotoresistencia entregaba valores entre 840 y 1024 se creó una función map (la cual consiste en reparametrizar un intervalo de valores a otro intervalo) para que entregue valores entre 0 y 255, dependiendo de la cantidad de luz existente.</p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/pol_rele_v2.mp4"  type="video/mp4">
+    </video>
+</div>
 
 </div>
 </div>
