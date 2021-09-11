@@ -316,6 +316,25 @@ Para hacerlo parpadear más rápido o lento DEPENDIENDO de la luz se requiere de
     <source src="/img/pol_ph_v1.mp4"  type="video/mp4">
     </video>
 </div>
+<hr>
+<hr>
+<hr>
+<p>TAREA 6</p>
+<hr>
+<hr>
+<hr>
+<h2 id="motor-servo">Motor servo</h2>
+<p>El motor servo es un dispositivo electrónico que gira en su propio eje 180 grados, permitiendo mover/manipular cosas según sea requeridas. En este caso se usó para analizar su manipulación con un potenciómetro.</p>
+<p>Para ello en el código de arduino (para simplificarnos la vida) se llama a la librería &ldquo;#include &lt;Servo.h&gt;&rdquo;, el cual, luego de haberlo llamado con &ldquo;servoMotor.attach(PIN)&rdquo;, con el comando servoMotor.write(grados) podemos definir el grado de giro que se encuentre.</p>
+<p>Por ende, haciendo una función map con lo que sale del potenciómetro (números entre 0 y 1023) a los grados queridos (de 0 a 180 grados, aunque en mi caso yo lo hice de 5 a 175 grados para no saturar los extremos), generando el control del motor servo con el potenciómetro.</p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/pol_v_servo.mp4"  type="video/mp4">
+    </video>
+</div>
 
 </div>
 </div>
